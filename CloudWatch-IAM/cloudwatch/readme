@@ -1,0 +1,10 @@
+CloudWatch
+
+
+You can create a different alarms using CloudWatch:
+1. DynamoDB Read/Write throughput
+2. EC2 CPU Usage
+3. Estimated Billing Charges
+
+
+We can also use SNS to create a notification whenever we want to create an alarm/trigger from cloudwatch.
