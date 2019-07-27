@@ -1,0 +1,32 @@
+Identity & Access Management (IAM)
+- Is an access management service that controls who can have access to what in your AWS Account.
+
+
+IAM User Management Aspects:
+
+1. Passwords
+2. Multi-Factor Authentication (MFA)
+3. Access Keys
+4. SSH Keys
+
+
+PRO Tip: We should enable the MFA to our AWS Account for added security.
+
+
+IAM Policy:
+Policy -> Permission -> Resource Permission -> Service Permission
+
+
+IAM Policy Examples:
+
+1. Developer Group Policy
+	- EC2 Full Access
+
+2. Tester Group Policy
+	- DynamoDB Read-Only
+	- S3 Full Access
+
+
+It is also advisable that we dont use our root account to access different AWS Services.
+
+We should create a new "User" that has a corresponding policy attached to it. Or much better, we create a "Group" and, add the newly created "User" to that "Group".
