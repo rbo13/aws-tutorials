@@ -1,0 +1,28 @@
+Elastic Cloud Compute (EC2)
+
+
+EC2:
+- Virtual machine service that runs software of your choice.
+
+
+Services that Utilize EC2:
+
+	1. RDS
+	2. ElastiCache
+	3. Elastic Beanstalk
+	4. Redshift
+	5. Elastic MapReduce
+	6. Elastic Block Storage
+
+
+By creating an EC2 Instance in a VPC we are adding a layer of security separating your resources from others on AWS and the public.
+
+EC2 instance parameters: CPU, Memory, Storage, Network.
+
+
+EC2 Instance Types:
+
+	1. General Purpose
+	2. Compute Optimized
+	3. Memory Optimized
+	4. Storage Optimized
