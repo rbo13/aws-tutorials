@@ -1,0 +1,27 @@
+Virtual Private Cloud (VPC)
+
+
+VPC:
+- Allows developer to create a virtual network.
+
+
+Important tool/s in a VPC:
+
+1. Security Group
+		- Defines allowed incoming/outgoing IP addresses and ports. Kind of like a mini firewall.
+		- It is attached to the instance level, and can be shared among many instances.
+
+2. Routing Table
+3. Network Access Control List (Network ACLs)
+
+Creating a Subnet with a following CIDR Block (10.0.0.0/24) can have an IP Address range of: (10.0.0.0) to (10.0.0.255)
+
+
+When creating a new Subnet:
+
+1. Select the VPC you want the subnet to run on.
+2. Select a different Availability Zone.
+3. For the CIDR block, it must be different from the first you've created. So the values should be:
+
+CIDR Block      IP Addresses
+10.0.1.0/24  => 10.0.1.0 to 10.0.1.255
