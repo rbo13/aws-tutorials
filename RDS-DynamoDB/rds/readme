@@ -1,0 +1,11 @@
+Relational Database Service (RDS)
+
+Relational DB:
+	- Efficient data transfer and storage.
+	- Strict Record Schema
+	- Easy Querying
+	- Has Query Flexibility
+
+When you create an RDS instance in AWS, it creates an EC2 Instance under the hood.
+
+RDS also has a read replica, this is essentially a copy of your database that is not being used in production. It is done with eventual consistencies. Read replica will not be used as a failover, since it is not used in production.
