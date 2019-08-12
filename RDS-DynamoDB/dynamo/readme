@@ -1,0 +1,8 @@
+DynamoDB
+
+No-SQL service offered by Amazon.
+
+Non-Relational (DynamoDB):
+	- No schema; Only Primary Key Restriction
+	- Has Storage Flexibility
+	- Limited Query Properties
